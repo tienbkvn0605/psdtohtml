@@ -149,8 +149,7 @@ body {
 }
 .category__image {
   border-radius: inherit;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-bottom: 4rem;
   width: 100%;
   height: 23rem;
@@ -244,7 +243,7 @@ body {
   position: relative;
   z-index: 1;
 }
-.feature-best__icon:before {
+.feature-best__icon:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -404,8 +403,6 @@ body {
   margin-bottom: 3rem;
   display: block;
   font-size: 1.8rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   color: #1c2b5d;
 }
@@ -537,4 +534,6 @@ body {
   .warpper .header .logo {
     font-size: 2rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
